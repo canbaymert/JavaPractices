@@ -2,7 +2,7 @@ package _02_Scanner;
 
 import java.util.Scanner;
 
-public class C05 {
+public class C05_hypotenuse {
     public static void main(String[] args) {
 
         // Find the hypotenuse of a triangle

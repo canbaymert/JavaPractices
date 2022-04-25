@@ -1,9 +1,8 @@
-package _02_Scanner;
+package _03_IfStatement;
 
 import java.util.Scanner;
 
-public class C04 {
-
+public class C02_BMI {
     public static void main(String[] args) {
         //Body Mass Index Calculator
 
@@ -21,9 +20,17 @@ public class C04 {
         System.out.println("Body Mass Index(BMI)= " + bmi);
         scan.close();
 
-
+        if (bmi<=20){
+            System.out.println("Thin");
+        }
+        else if (bmi<=25) {
+            System.out.println("Normal");
+        }
+        else if (bmi<=30) {
+            System.out.println("Overweight");
+        }
+        else System.out.println("Obese");
     }
-
 }
 
 

@@ -2,7 +2,7 @@ package _02_Scanner;
 
 import java.util.Scanner;
 
-public class C01 {
+public class C01_scannerDataTypes {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String name, surname;

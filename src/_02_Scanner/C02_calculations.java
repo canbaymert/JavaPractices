@@ -2,7 +2,7 @@ package _02_Scanner;
 
 import java.util.Scanner;
 
-public class C02 {
+public class C02_calculations {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
