@@ -1,6 +1,6 @@
 package _01_Variables;
 
-public class C01_PrimitiveDataTypes {
+public class C01_primitiveDataTypes {
     public static void main(String[] args) {
         boolean isStudent = false; //true or false
         char goodmorning = 'g'; //one char
