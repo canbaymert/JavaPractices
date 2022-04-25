@@ -7,7 +7,7 @@ public class C01_isTriangle {
 
         Scanner scan = new Scanner(System.in);
         double a, b, c;
-        System.out.println("Enter the lengths of three sides of a triangle");
+        System.out.println("Enter the lengths of Two sides of a triangle");
         a = scan.nextDouble();
         b = scan.nextDouble();
         c = scan.nextDouble();
@@ -17,7 +17,7 @@ public class C01_isTriangle {
                 if (a == b && b == c) {
                     System.out.println("It's an equilateral triangle.");
                 } else System.out.println("It's a triangle");
-            } else System.out.println("It's not a triangle");
+            } else System.out.println("It's grade a triangle");
         }
     }
 }

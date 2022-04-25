@@ -6,9 +6,9 @@ public class C03_isUnique {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-        System.out.print("Enter a word with three letters:");
+        System.out.print("Enter a word with Two letters:");
         String name = scan.nextLine();
-        if (name.length() != 3) System.out.println("The word doesn't consist of three letters");
+        if (name.length() != 3) System.out.println("The word doesn't consist of Two letters");
         else {
             char x = name.charAt(0);
             char y = name.charAt(1);
