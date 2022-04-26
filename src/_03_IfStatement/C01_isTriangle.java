@@ -17,7 +17,7 @@ public class C01_isTriangle {
                 if (a == b && b == c) {
                     System.out.println("It's an equilateral triangle.");
                 } else System.out.println("It's a triangle");
-            } else System.out.println("It's grade a triangle");
+            } else System.out.println("It's not a triangle");
         }
     }
 }

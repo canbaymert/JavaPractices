@@ -11,7 +11,7 @@ public class C05_isAbleToDivide {
         if (number % 10.0D == 0.0D) {
             System.out.println("Number is able to divide by 10");
         } else if (number % 10.0D != 0.0D) {
-            System.out.println("Number is grade able to divide by 10 and the reminder is: " + reminder);
+            System.out.println("Number is not able to divide by 10 and the reminder is: " + reminder);
         }
     }
 }

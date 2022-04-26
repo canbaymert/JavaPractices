@@ -9,7 +9,7 @@ public class C02_isCapital {
         System.out.println("Please enter a letter: ");
         String character = scan.nextLine();
         char x = character.charAt(0);
-        String result = (x >= 'a' && x <= 'z' || x >= 'A' && x <= 'Z') ? (x >= 'a' && x <= 'z') ? ("Lower Letter") : ("Uppercase Letter") : ("grade a letter");
+        String result = x >= 'a' && x <= 'z' || x >= 'A' && x <= 'Z' ? x >= 'a' ? "Lower Letter" : "Uppercase Letter" : "Not a letter";
         System.out.println(result);
     }
 }

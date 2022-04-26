@@ -16,14 +16,8 @@ public class C01_letterGrade {
 
         switch (lettergrade) {
             case 'A':
-                System.out.println("Your letter grade: "+lettergrade);
-                break;
             case 'B':
-                System.out.println("Your letter grade: "+lettergrade);
-                break;
             case 'C':
-                System.out.println("Your letter grade: "+lettergrade);
-                break;
             case 'D':
                 System.out.println("Your letter grade: "+lettergrade);
                 break;
@@ -32,4 +26,3 @@ public class C01_letterGrade {
         }
     }
 }
- 

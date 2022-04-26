@@ -41,19 +41,19 @@ public class C04_regex {
         System.out.println("b".matches("[abc]?")); // true, max usage of a, b, c should be 1.
         System.out.println("a".matches("[abc]+")); // true, min usage of a, b, c should be 1.
         System.out.println("aaa".matches("[abc]+")); // true, min usage of a, b, c should be 1.
-        System.out.println("aaddta".matches("[abc]+")); // false, string should grade contain d or t
+        System.out.println("anamedta".matches("[abc]+")); // false, string should not contain d or t
         System.out.println("aaabbcccc".matches("[abc]+")); // true, max usage of a, b, c should be 1.
 
         System.out.println("asdaf13".matches("[a-zA-Z0-9]{6}")); // true, string should contain 6 characters
-        System.out.println("xxasdaf23".matches("[a-zA-Z0-9]{6}")); // false string should grade contain more than 6 characters
+        System.out.println("xxasdaf23".matches("[a-zA-Z0-9]{6}")); // false string should not contain more than 6 characters
         System.out.println("RA2uc8".matches("[a-zA-Z0-9]{6}")); // true
-        System.out.println("asda$2".matches("[a-zA-Z0-9]{6}")); // false, string should grade contain special characters
+        System.out.println("asda$2".matches("[a-zA-Z0-9]{6}")); // false, string should not contain special characters
         System.out.println("+++++" + "ttc25z".matches("[a-zA-Z0-9]{6,7}")); // true
-        System.out.println("ttc25et0".matches("[a-zA-Z0-9]{6,7}")); // false, string should grade contain 6 or 7 characters
+        System.out.println("ttc25et0".matches("[a-zA-Z0-9]{6,7}")); // false, string should not contain 6 or 7 characters
         System.out.println("9953038949".matches("[789]{1}[0-9]{9}"));   // true, first character should be 7,8 or 9, total 10 characters
         System.out.println("9953038949".matches("[789][0-9]{9}"));      //true
         System.out.println("6953038949".matches("[789][0-9]{9}")); // false, first character is 6
-        System.out.println("99530389490".matches("[789][0-9]{9}")); // false, sting should grade contain more or less than 10 characters
+        System.out.println("99530389490".matches("[789][0-9]{9}")); // false, string should not contain more or less than 10 characters
     }
 }
 
