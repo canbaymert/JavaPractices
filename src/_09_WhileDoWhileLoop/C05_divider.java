@@ -2,8 +2,6 @@ package _09_WhileDoWhileLoop;
 
 import java.util.Scanner;
 
-
-
 public class C05_divider {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -14,17 +12,16 @@ public class C05_divider {
         divideNum(dividend, divider);
 
     }
-    
+
     private static void divideNum(int dividend, int divider) {
         int counter = 0;
         if (dividend < divider) System.out.println("Divider cannot be greater than dividend.");
         else {
             while (dividend >= divider) {
-                dividend=dividend-divider;
-                counter=counter+1;
+                dividend = dividend - divider;
+                counter = counter + 1;
             }
-            int remainder=dividend;
-            System.out.println("Quotient : " + counter +"\nRemainder : "+dividend);
+            System.out.println("Quotient : " + counter + "\nRemainder : " + dividend);
         }
     }
 }
