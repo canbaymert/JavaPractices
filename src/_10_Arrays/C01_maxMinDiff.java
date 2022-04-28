@@ -1,4 +1,5 @@
 package _10_Arrays;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
