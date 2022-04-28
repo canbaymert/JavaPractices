@@ -10,9 +10,8 @@ public class C11_combination {
         System.out.print("r : ");
         int r = scan.nextInt();
         int c = combination(n, r);
-        System.out.println("Combination of n and r = C(n,r) = "+c);
+        System.out.println("Combination of n and r = C(n,r) = " + c);
     }
-
 
     public static int combination(int n, int r) {
         int nfactorial = 1;
