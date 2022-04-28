@@ -1,5 +1,4 @@
 package _10_Arrays;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -8,7 +7,7 @@ public class C01_maxMinDiff {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter the length of the array");
         int arrlength = scan.nextInt();
-        int Arr[] = new int[arrlength];
+        int[] Arr = new int[arrlength];
         for (int i = 0; i < arrlength; i++) {
             System.out.print("Entry number " + i + " : ");
             Arr[i] = scan.nextInt();
