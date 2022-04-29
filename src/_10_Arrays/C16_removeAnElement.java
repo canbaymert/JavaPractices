@@ -3,7 +3,7 @@ package _10_Arrays;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class C15_removeAnElement {
+public class C16_removeAnElement {
     /*
 
     Write a Java program to removes a specific element from an array and put the remaining elements in a new array and prints the new array

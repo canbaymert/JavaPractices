@@ -1,10 +1,10 @@
-package _10_Arrays;
+package _11_List;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class C15_commonElements {
+public class C01_commonElements {
     /*
 
     Write a program to find the common elements between two String Arrays (without case sensitivity)

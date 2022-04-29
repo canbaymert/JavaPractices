@@ -3,7 +3,7 @@ package _10_Arrays;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class C17_characterCounter {
+public class C19_characterCounter {
     //Find and print usage times of characters in a string as an array.
     public static void main(String[] args) {
 

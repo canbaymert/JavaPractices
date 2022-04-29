@@ -2,7 +2,7 @@ package _10_Arrays;
 
 import java.util.Arrays;
 
-public class C13_stringManipulation {
+public class C15_stringManipulation {
     //input : Congratulations output: sniitilitirgniC
     public static void main(String[] args) {
         String str = "Congratulations";
