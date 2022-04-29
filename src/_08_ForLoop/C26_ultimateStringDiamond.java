@@ -2,7 +2,7 @@ package _08_ForLoop;
 
 import java.util.Scanner;
 
-public class C23_ultimateStringDiamond {
+public class C26_ultimateStringDiamond {
     /* output:
 
         p

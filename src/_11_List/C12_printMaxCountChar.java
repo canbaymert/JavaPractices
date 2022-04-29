@@ -2,7 +2,7 @@ package _11_List;
 
 import java.util.Scanner;
 
-public class C10_printMaxCountChar {
+public class C12_printMaxCountChar {
     /*  Write a Java program to get a String from user as input and find the maximumCounts occurring character in that string.
          (Ignore case sensitivity)
           input : Learning java is easy

@@ -4,21 +4,26 @@ public class C04_regex {
     public static void main(String[] args) {
         String b = "Java 1235 ?!@$_";
         System.out.println(b);
-        //output:Java 1235 ?!@$_
+        //output: Java 1235 ?!@$_
         System.out.println(b.replaceAll("\\d", "*"));
-        //output:Java **** ?!@$_
+        //output: Java **** ?!@$_
         System.out.println(b.replaceAll("\\D", "*"));
-        //output *****1235******
+        //output: *****1235******
         System.out.println(b.replaceAll("\\S", "*"));
-        //output:**** **** *****
+        //output: **** **** *****
         System.out.println(b.replaceAll("\\s", "*"));
-        //output Java*1235*?!@$_
+        //output: Java*1235*?!@$_
         System.out.println(b.replace(" ", "*"));
-        //output Java*1235*?!@$_
+        //output: Java*1235*?!@$_
         System.out.println(b.replaceAll("\\w", "*"));
-        // output:**** **** ?!@$*  (w includes  a-z A-Z 0-9)
+        // output: **** **** ?!@$*  (w includes  a-z A-Z 0-9)
         System.out.println(b.replaceAll("\\W", "*"));
-        // output:Java*1235*****_
+        // output: Java*1235*****_
+        System.out.println(b.replaceAll("[aeiou]", "*"));
+        //output: J*v* 1235 ?!@$_
+        System.out.println(b.replaceAll("[^aeiou]", "*"));
+        //output: *a*a***********
+
 
         System.out.println("as".matches(".s"));  // true
         System.out.println("mst".matches(".s")); // false

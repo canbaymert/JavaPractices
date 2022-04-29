@@ -2,7 +2,7 @@ package _08_ForLoop;
 
 import java.util.Scanner;
 
-public class C21_stringTriangle {
+public class C23_stringTriangle {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter a string : ");
