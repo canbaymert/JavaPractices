@@ -2,7 +2,7 @@ package _09_WhileDoWhileLoop;
 
 import java.util.Scanner;
 
-public class C12_freeFallingBall {
+public class C13_freeFallingBall {
     public static void main(String[] args) {
         //When a ball bounces, it rises up to `%75' of the height from which it fell.
         //The ball doesn't bounce when the falling distance is 1 meter or below.
