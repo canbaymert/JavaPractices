@@ -11,7 +11,7 @@ Create fibonacci series until the desired number.
 
 */
 
-public class C11_fibonacci {
+public class C11_fibonacciSeries {
     public static void main(String[] args) {
         List<Integer> fibonacci = new ArrayList<>();
         Scanner scan = new Scanner(System.in);
