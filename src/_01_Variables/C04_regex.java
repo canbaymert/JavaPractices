@@ -53,12 +53,18 @@ public class C04_regex {
         System.out.println("xxasdaf23".matches("[a-zA-Z0-9]{6}")); // false string should not contain more than 6 characters
         System.out.println("RA2uc8".matches("[a-zA-Z0-9]{6}")); // true
         System.out.println("asda$2".matches("[a-zA-Z0-9]{6}")); // false, string should not contain special characters
-        System.out.println("+++++" + "ttc25z".matches("[a-zA-Z0-9]{6,7}")); // true
+        System.out.println("ttc25z".matches("[a-zA-Z0-9]{6,7}")); // true
         System.out.println("ttc25et0".matches("[a-zA-Z0-9]{6,7}")); // false, string should not contain 6 or 7 characters
         System.out.println("9953038949".matches("[789]{1}[0-9]{9}"));   // true, first character should be 7,8 or 9, total 10 characters
         System.out.println("9953038949".matches("[789][0-9]{9}"));      //true
         System.out.println("6953038949".matches("[789][0-9]{9}")); // false, first character is 6
         System.out.println("99530389490".matches("[789][0-9]{9}")); // false, string should not contain more or less than 10 characters
+
+        String password="Xxxx1234.";
+        System.out.println(password.matches(".*[A-Z].*")); //Password should contain at least 1 uppercase character
+        System.out.println(password.matches(".*[a-z].*")); //Password should contain at least 1 lowercase character
+        System.out.println(password.matches(".*\\d+.*")); //Password should contain at least 1 digit
+        System.out.println(password.matches("[a-zA-Z0-9üÜıİÖöğĞşŞçÇ]*")); //Password should contain at least 1 special character
     }
 }
 
