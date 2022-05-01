@@ -16,7 +16,7 @@ public class C04_regex {
         System.out.println(b.replace(" ", "*"));
         //output: Java*1235*?!@$_
         System.out.println(b.replaceAll("\\w", "*"));
-        // output: **** **** ?!@$*  (w includes  a-z A-Z 0-9)
+        //output: **** **** ?!@$*  (w includes  a-z A-Z 0-9)
         System.out.println(b.replaceAll("\\W", "*"));
         // output: Java*1235*****_
         System.out.println(b.replaceAll("[aeiou]", "*"));
