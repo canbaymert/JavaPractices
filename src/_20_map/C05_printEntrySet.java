@@ -71,7 +71,7 @@ public class C05_printEntrySet {
          */
 
         for (Map.Entry<String, Integer> each : countryPopulations.entrySet()) {
-            System.out.println(each.getKey() + "*****" + each.getValue());
+            System.out.println(each.getKey() + " : " + each.getValue());
         }
         /*
         Canada*****40

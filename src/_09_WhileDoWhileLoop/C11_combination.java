@@ -18,7 +18,7 @@ public class C11_combination {
         int rfactorial = 1;
         int difffactorial = 1;
         int diff = n - r;
-        if (r > n) System.out.println("r değeri n değerinden büyük olamaz.");
+        if (r > n) System.out.println("The value of r cannot be greater than the value of n.");
         else {
             if (n == 0) nfactorial = nfactorial;
             else {
