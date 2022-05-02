@@ -2,7 +2,7 @@ package _20_map;
 
 import java.util.TreeMap;
 
-public class C02_treeMap {
+public class C02_treeMapMethods {
     public static void main(String[] args) {
         TreeMap<Integer, String> tm = new TreeMap<>();
         tm.put(105, "bbb");

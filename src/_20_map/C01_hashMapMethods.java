@@ -4,7 +4,7 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Set;
 
-public class C01_methods {
+public class C01_hashMapMethods {
     public static void main(String[] args) {
 
         HashMap<Integer, String> m1 = new HashMap<>();
@@ -32,7 +32,9 @@ public class C01_methods {
         System.out.println(m1.get(103)); // N'Golo
         System.out.println(m1.values()); // [Edouard, Thiago, Cesar, N'Golo, Mason, Kai, Timo, null, null, null]
 
-        System.out.println(m1.keySet());// [null, 101, 102, 103, 104, 105, 106, 107, 108, 109]
+        System.out.println(m1.keySet()); // [null, 101, 102, 103, 104, 105, 106, 107, 108, 109]
+        System.out.println(m1.entrySet()); // [null=Edouard, 101=Thiago, 102=Cesar, 103=N'Golo, 104=Mason, 105=Kai, 106=Timo, 107=null, 108=null, 109=null]
+
 
         System.out.println(m1.getOrDefault(106, "There is no such value")); // Timo
         System.out.println(m1.getOrDefault(111, "There is no such value")); // There is no such value
