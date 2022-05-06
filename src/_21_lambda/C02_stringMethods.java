@@ -60,6 +60,7 @@ public class C02_stringMethods {
         //allMatch() --> returns true if at least all element matches with the given term
         //noneMatch()--> returns true if none of the elements matches with the given term
     }
+
     public static void printThreeLargeElements(List<String> menu) {
         Stream<String> lastThree = menu.
                 stream().
@@ -68,6 +69,7 @@ public class C02_stringMethods {
                 limit(3);  //limits the output with 3 elements (in stream form)
         System.out.println(Arrays.toString(lastThree.toArray())); //stream to array then array to string.
     }
+
     public static void printTheLargestElement(List<String> menu) {
         // max() and get() methods
         System.out.println(menu.
