@@ -36,6 +36,7 @@ public class C07_2DCollectionsTask {
         lists.add(companies);
 
         System.out.println(lists);
+        System.out.println(lists.get(0).get(0));
     }
 }
 
